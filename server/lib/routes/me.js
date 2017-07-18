@@ -1,6 +1,5 @@
 const plaidClient = require('../plaid');
 const moment = require('moment');
-
 const Router = require('express').Router;
 const router = Router();
 const User = require('../models/user');

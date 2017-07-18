@@ -8,7 +8,7 @@ describe('User Management API', () => {
 
   let token = '';
 
-  //create a token!
+  //create a token
   before(() => {
     return request.post('/auth/signup')
       .send({
